@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="petstore.Pet" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-06T01:58:00" hostname="DESKTOP-THERON" time="0.797">
+<testsuite name="petstore.Pet" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-07T01:45:45" hostname="DESKTOP-THERON" time="4.018">
   <properties/>
-  <testcase name="cadastrarPet" classname="petstore.Pet" time="0.797"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="atualizarPet" classname="petstore.Pet" time="4.018"/>
+  <system-out><![CDATA[Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "category": {
+        "id": 1,
+        "name": "dog"
+    },
+    "name": "Snoppy",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "semanatestapi"
+        }
+    ],
+    "status": "sold"
+}
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
